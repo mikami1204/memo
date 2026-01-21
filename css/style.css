@@ -1,0 +1,99 @@
+@charset "utf-8";
+
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.memo {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+header {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFBB27;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+    font-family: "Adventures Unlimited Script";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.memo form {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.memo .textbox {
+    margin: 0 20%;
+}
+
+.memo .button {
+    margin: 0 30%;
+    color: #FFF;
+    text-align: center;
+    font-family: SicUnsui;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: none;
+    border-radius: 25px;
+    background-color: #FFBB27;
+}
+
+
+.memo-cont {
+    margin: 0 10%;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    border: 10px solid #FFBB27;
+    box-sizing: border-box;
+    font-family: "Zen Kurenaido";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.memo_text {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    color: #FFBB27;
+}
+
+.memo-cont input {
+    width: 90%;
+    text-align: center;
+    border: none;
+    border-bottom: 1px solid #FFBB27;
+    background-color: #fff;
+    font-family: "Zen Kurenaido";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.none {
+    display: none;
+}
